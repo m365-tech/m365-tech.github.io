@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkm_365_tech=self.webpackChunkm_365_tech||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Latest Posts","items":[{"title":"Bulk change the owner of Power Automate flows using PowerShell","permalink":"/m365-tech.github.io/bulk-change-the-owner-of-power-automate-flows-using-powershell","unlisted":false}]}')}}]);
