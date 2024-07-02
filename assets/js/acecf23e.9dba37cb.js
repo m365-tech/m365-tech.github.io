@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkm_365_tech=self.webpackChunkm_365_tech||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/m365-tech.github.io/","blogTitle":"Blog"}')}}]);
