@@ -63,7 +63,7 @@ const config: Config = {
       title: 'M365 Tech',
       logo: {
         alt: 'M365 Tech logo',
-        src: 'img/m.png',
+        src: 'img/M.png',
       },
       items: [
         
