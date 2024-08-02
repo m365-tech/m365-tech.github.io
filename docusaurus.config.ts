@@ -33,7 +33,11 @@ const config: Config = {
   presets: [
     [
       'classic',
-      {        
+      { 
+        gtag: {
+          trackingID: 'G-YGDRSL8QB9',
+          anonymizeIP: true
+        },
         docs: false/*{
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
@@ -66,13 +70,13 @@ const config: Config = {
         src: 'img/M.png',
       },
       items: [
-        
+
       ],
     },
     footer: {
       style: 'dark',
       links: [
-        
+
       ],
       copyright: `Copyright © ${new Date().getFullYear()} M365 Tech CA`,
     },
