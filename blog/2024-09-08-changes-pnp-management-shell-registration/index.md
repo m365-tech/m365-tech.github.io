@@ -11,6 +11,8 @@ As announced by the [PnP Powershell Team](https://pnp.github.io/blog/post/change
 
 ![Multi Tenant App Registration](./multi-tenant-app.jpg)
 
+<!--truncate-->
+
 As quoted:
 >This change is provided to help customers to improve their security posture by encouraging the use of single tenant app registrations with on just the scopes and permissions which are needed.
 >
