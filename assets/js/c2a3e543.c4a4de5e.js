@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkm_365_tech=self.webpackChunkm_365_tech||[]).push([[885],{2937:e=>{e.exports=JSON.parse('{"tags":[{"label":"Power Automate","permalink":"/tags/powerautomate","description":"blog post related to Power Automate","count":1},{"label":"PowerShell","permalink":"/tags/powershell","description":"blog post related to PowerShell","count":1}]}')}}]);
