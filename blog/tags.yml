@@ -4,6 +4,17 @@ PowerShell:
   description: blog post related to PowerShell
 PowerAutomate:
   label: Power Automate
-  permalink: /powerautomate
+  permalink: /power-automate
   description: blog post related to Power Automate
-
+M365:
+  label: M365
+  permalink: /m365
+  description: blog post related to M365
+SharePoint:
+  label: SharePoint
+  permalink: /sharepoint
+  description: blog post related to SharePoint
+PnPPowerShell:
+  label: PnP PowerShell
+  permalink: /pnp-powershell
+  description: blog post related to PnP PowerShell

@@ -2,7 +2,7 @@
 slug: changes-pnp-management-shell-registration
 title: Changes in PnP Management Shell registration in Microsoft 365
 authors: [markd]
-tags: [M365, PnP PowerShell, SharePoint]
+tags: [M365,PnPPowerShell,SharePoint]
 ---
 
 ## What is happening on Sept 9th, 2024
