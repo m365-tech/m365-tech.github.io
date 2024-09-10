@@ -20,7 +20,7 @@ As quoted:
 
 ## Multi-Tenant App Registration
 
-The Multi-Tenant App Registration was created by the PnP PowerShell Team in order to provide a quick way for M365 tenants to utilize the PnP.PowerShell modules and connect to desired tenants. It can be downloaded and installed by M365 customers to provide scripting capabilities for their admins/users. This application provides [DELEGATED access](https://learn.microsoft.com/en-us/entra/identity-platform/delegated-access-primer) to the sites the user has access to. 
+The Multi-Tenant App Registration was created by the PnP PowerShell Team in order to provide a quick way for M365 customers to utilize PnP.PowerShell module and connect to desired tenants. It can be downloaded and installed by M365 customers to provide scripting capabilities for their admins/users. This application provides [DELEGATED access](https://learn.microsoft.com/en-us/entra/identity-platform/delegated-access-primer) to the sites/services the user has access to. 
 
 :::tip
 Multi-Tenant App Registration has a set of [default permissions](./index.md#multi-tenant-app-permissions) which cannot be altered once installed. This is probably, in my opinion, the reason they are eliminating this app.
@@ -29,7 +29,7 @@ Multi-Tenant App Registration has a set of [default permissions](./index.md#mult
 Once connected to the tenant, you will be able to utilize the [PnP cmdlets](https://pnp.github.io/powershell/cmdlets/index.html) depending on your current access to the site.
 
 ### -Interactive
-This is the old way of connecting to sites. If you only provide the -Interactive parameter, you are explicitly saying the command to use the multi-tenant app registration to connect.
+This is the old way of connecting to sites. If you only provide the "-Interactive" parameter, you are explicitly saying the command to use the multi-tenant app registration to connect.
 :::warning
 This line of code will be unusable after the changes on Sept 9th
 :::
@@ -40,6 +40,10 @@ Connect-PnPOnline [tenant].sharepoint.com -Interactive
 ## Using your own App Registration
 
 To replace the Multi-Tenant App Registration provided by the PnP PowerShell team, customers must now create a new Application Registration to be able to utilize the PnP PowerShell Module. Admins will now be able to scope what particular permissions should be allowed when using the module.
+
+:::tip
+There are several ways to [connect](https://pnp.github.io/powershell/cmdlets/Connect-PnPOnline.html) using the module but we will only be focusing on the simplest one for now.
+:::
 
 ### Creating an App Registration
 
